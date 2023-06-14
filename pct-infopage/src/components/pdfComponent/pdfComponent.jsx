@@ -15,7 +15,7 @@ const PdfComponent = ({ group }) => {
   return (
     <>
       <hr color="#ffde00" style={{ width: "80vw" }} />
-      <div className="body-title">Group {group} Schedule</div>
+      <div className="body-title">Group {group}</div>
       <div className="body-pricing-container">
         <div className="body-pricing-title">Pricing/month:</div>
         <div className="body-pricing-price">{price}</div>
@@ -28,6 +28,7 @@ const PdfComponent = ({ group }) => {
       >
         Enroll
       </button>
+      <div className="body-title">Schedule</div>
       <div className="body-pdf">
         <object
           data={`/Group${group}_May2023.pdf`}
