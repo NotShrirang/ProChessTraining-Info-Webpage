@@ -10,8 +10,19 @@ const handleStartLearning = () => {
 const Body = () => {
   const [group, setGroup] = useState(0);
 
+  function pageScroll(counter) {
+    if (counter == 0) {
+      return;
+    }
+    window.scrollBy(0, 15);
+    scrolldelay = setTimeout(() => {
+      pageScroll(counter - 1);
+    }, 10);
+  }
+
   const handleGroupChange = (e) => {
     setGroup(e.target.value);
+    pageScroll(30);
   };
 
   return (
@@ -21,11 +32,6 @@ const Body = () => {
         ProChess Training is a chess training platform that provides chess
         lessons from the best chess players in the world. Our mission is to help
         you improve your chess skills and become a better chess player.
-      </div>
-      <div className="body-button-container">
-        <button className="body-button" onClick={handleStartLearning}>
-          Start Learning
-        </button>
       </div>
       <div className="body-dropdown">
         <div className="body-dropdown-title">Select Group:</div>
