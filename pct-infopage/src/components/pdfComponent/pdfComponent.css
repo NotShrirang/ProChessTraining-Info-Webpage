@@ -3,10 +3,60 @@
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    color: white;
+    color: #dcdcdc;
     font-size: 1.8rem;
     font-weight: thin;
     text-align: center;
+}
+
+.body-pricing-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.body-pricing-title {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: #ffde00;
+    font-size: 1.5rem;
+    font-weight: thin;
+    text-align: center;
+}
+
+.body-pricing-price {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: #ffde00;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: black 4px solid;
+}
+
+.body-enroll-button {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffde00;
+    color: #374f62;
+    box-shadow: #253441 0px 0px 10px 0px;
+}
+
+.body-enroll-button:hover {
+    border: none;
+    background-color: #dcdcdc;
+    color: #374f62;
+    box-shadow: #253441 0px 0px 10px 0px;
 }
 
 .body-pdf {

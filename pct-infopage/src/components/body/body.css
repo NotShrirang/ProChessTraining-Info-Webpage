@@ -9,7 +9,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 7rem;
-    color: white;
+    color: #dcdcdc;
     font-size: 4rem;
     font-weight: lighter;
     text-align: center;
@@ -19,7 +19,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
-    color: white;
+    color: #dcdcdc;
     font-size: 2rem;
     font-weight: 100;
     text-align: center;
@@ -35,14 +35,14 @@
     font-family:  'Nunito', sans-serif;
     background-color: #253441;
     box-shadow: #253441 0px 0px 10px 0px;
-    color: white;
+    color: #dcdcdc;
     transition: background-color 0.25s;
     text-align: center;
 }
 .body-button:hover {
-    background-color: white;
+    background-color: #dcdcdc;
     color: #000;
-    border-color: white;
+    border-color: #dcdcdc;
     text-align: center;
     border: #253441 3px solid;
 }
@@ -85,7 +85,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    color: white;
+    color: #dcdcdc;
     font-size: 1.2rem;
     font-weight: lighter;
     text-align: center;
@@ -99,7 +99,7 @@
 }
 
 .body-dropdown-select:hover {
-    background-color: white;
+    background-color: #dcdcdc;
     color:#000;
     cursor: pointer;
 }

@@ -53,7 +53,7 @@ const Body = () => {
         <br />
       </div>
       <PdfComponent group={group} />
-    </div>  
+    </div>
   );
 };
 
