@@ -1,0 +1,213 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-subtitle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 7rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.body-description {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.body-button {
+    margin-left: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family:  'Nunito', sans-serif;
+    background-color: #253441;
+    box-shadow: #253441 0px 0px 10px 0px;
+    color: white;
+    transition: background-color 0.25s;
+    text-align: center;
+}
+.body-button:hover {
+    background-color: white;
+    color: #000;
+    border-color: white;
+    text-align: center;
+    border: #253441 3px solid;
+}
+
+.body-button-container {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.body-dropdown {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    border: #000 1px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 60vw;
+    height: auto;
+    box-shadow: #253441 0px 0px 10px 0px;
+}
+
+.body-dropdown-title {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: thin;
+    text-align: center;
+}
+
+.body-dropdown-select {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-align: center;
+    background-color: #253441;
+    box-shadow: #253441 0px 0px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #253441;
+    width: 50vw;
+    height: 7vh;
+    transition: background-color 0.25s;
+}
+
+.body-dropdown-select:hover {
+    background-color: white;
+    color:#000;
+    cursor: pointer;
+}
+
+.body-dropdown-select:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .body{
+        margin-top: 12rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .body-subtitle {
+        margin-left: 0rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+    .body-description {
+        margin-left: 0rem;
+        margin-right: 1rem;
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 336px) {
+    .body{
+        margin-top: 12rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .body-subtitle {
+        margin-left: 0rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+    .body-description {
+        margin-left: 0rem;
+        margin-right: 1rem;
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 336px) and (max-width: 360px) {
+    .body{
+        margin-top: 12rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 412px) {
+    .body{
+        margin-top: 12rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 413px) and (max-width: 444px) {
+    .body{
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 444px) and (max-width: 516px) {
+    .body{
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 517px) and (max-width: 520px) {
+    .body{
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 521px) and (max-width: 608px) {
+    .body{
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 609px) and (max-width: 688px) {
+    .body{
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 688px) and (max-width: 720px) {
+    .body{
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 730px) {
+    .body{
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+    }
+}
