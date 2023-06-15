@@ -10,6 +10,7 @@
     border-bottom: #dcdcdc 4px solid;
 }
 
+
 .body-pricing-container {
     display: flex;
     flex-direction: row;
@@ -40,6 +41,7 @@
 .body-pricing-price:hover {
     border-bottom: #253441 4px solid;
 }
+
 
 .body-enroll-button {
     margin-top: 1rem;
@@ -91,6 +93,18 @@
     background-color: #dcdcdc;
     color: #374f62;
     box-shadow: #253441 0px 0px 10px 0px;
+}
+
+.body-schedule {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: #dcdcdc;
+    font-size: 1.5rem;
+    font-weight: thin;
+    text-align: center;
+    border-bottom: #dcdcdc 4px solid;
 }
 
 .body-pdf {

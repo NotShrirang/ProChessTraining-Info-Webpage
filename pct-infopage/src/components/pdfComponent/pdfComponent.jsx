@@ -29,7 +29,10 @@ const PdfComponent = ({ group }) => {
           Start Learning
         </button>
       </div>
-      <div className="body-title">Schedule</div>
+      <div className="body-schedule">Schedule</div>
+      <a href={`/Group${group}_June2023.pdf`}>
+        <img src="/pdf_thumbnail.png" width={50} height={50} />
+      </a>
       <div className="body-pdf">
         <object
           data={`/Group${group}_June2023.pdf`}
