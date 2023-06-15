@@ -34,12 +34,18 @@ const PdfComponent = ({ group }) => {
         <img src="/pdf_thumbnail.png" width={50} height={50} />
       </a>
       <div className="body-pdf">
-        <object
+        {/* <object
           data={`/Group${group}_June2023.pdf`}
           type="application/pdf"
           width="100%"
           height="100%"
-        ></object>
+        ></object> */}
+        <img
+          src={`/Group${group}_June2023.png`}
+          alt={`/Group${group} - June 2023 Schedule`}
+          width="100%"
+          height="100%"
+        />
       </div>
     </>
   );
