@@ -11,11 +11,7 @@ const Footer = () => {
             alt=""
             height={60}
             width={60}
-            style={{
-              marginTop: "1rem",
-              marginBottom: "1rem",
-              marginLeft: "1rem",
-            }}
+            className="footer-div-logo"
           />
         </div>
         <div className="footer-div-title-container">

@@ -8,11 +8,12 @@
     box-shadow: #253441 0px 0px 7px 0px;
     vertical-align: middle;
     align-items: center;
+    gap: 1rem;
 }
 .footer-div-logo {
-    margin-left: "1rem";
-    margin-top: "1rem";
-    margin-bottom: "1rem";
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 .footer-div-title-container {
     display: flex;
@@ -35,10 +36,12 @@
     display: flex;
     flex-direction: row;
     margin-left: 4rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 .footer-div-link {
     color: #dcdcdc;
-    margin-left: 1rem;
     font-weight: lighter;
     font-size: small;
     transition: border-bottom 1s;
@@ -64,13 +67,9 @@
     .footer-div-subtitle{
         margin-left: 0rem;
     }
-    .footer-div-link{
-        margin-left: 0rem;
-        margin-top: 1rem;
-    }
     .footer-div-link-list{
-        margin-left: 0rem;
-        flex-direction: column;
+        margin-left: 0.5rem;
+        flex-direction: row;
         align-items: center;
     }
 }

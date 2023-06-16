@@ -10,7 +10,6 @@
     border-bottom: #dcdcdc 4px solid;
 }
 
-
 .body-pricing-container {
     display: flex;
     flex-direction: row;
@@ -96,7 +95,7 @@
 }
 
 .body-schedule {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -110,7 +109,7 @@
 .body-pdf {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 8rem;
     text-align: center;
     align-items: center;
     border: #000 1px solid;
