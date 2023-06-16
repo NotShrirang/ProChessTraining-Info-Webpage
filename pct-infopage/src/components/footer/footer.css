@@ -57,8 +57,18 @@
         flex-direction: column;
         margin-left: 0rem;
     }
+    .footer-div-title{
+        margin-left: 0rem;
+    }
+    .footer-div-subtitle{
+        margin-left: 0rem;
+    }
     .footer-div-link{
         margin-left: 0rem;
         margin-top: 1rem;
+    }
+    .footer-div-link-list{
+        margin-left: 0rem;
+        flex-direction: column;
     }
 }
