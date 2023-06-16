@@ -1,12 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/navbar/navbar";
 import Body from "./components/body/body";
+import { useLocation } from "react-router-dom";
+import Footer from "./components/footer/footer";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const location = useLocation();
 
   return (
     <>
@@ -19,7 +20,11 @@ function App() {
         }}
       >
         <Navbar />
-        <Body />
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Body />} />
+          <Route path="/groups/:groupId" element={<Body />} />
+        </Routes>
+        <Footer />
       </div>
     </>
   );

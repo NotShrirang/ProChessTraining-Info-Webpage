@@ -1,5 +1,6 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import "./body.css";
 import PdfComponent from "../pdfComponent/pdfComponent";
 
@@ -9,6 +10,17 @@ const handleStartLearning = () => {
 
 const Body = () => {
   const [group, setGroup] = useState(0);
+  const route = useParams();
+
+  useEffect(() => {
+    if (route.groupId == undefined) {
+      return;
+    } else if (["1", "2", "3", "5"].includes(route.groupId)) {
+      route.groupId && setGroup(route.groupId);
+    } else {
+      window.location.href = "/";
+    }
+  });
 
   function pageScroll(counter) {
     if (counter == 0) {

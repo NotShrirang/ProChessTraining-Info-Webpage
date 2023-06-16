@@ -31,12 +31,6 @@ const PdfComponent = ({ group }) => {
       </div>
       <div className="body-schedule">Schedule</div>
       <div className="body-pdf">
-        {/* <object
-          data={`/Group${group}_June2023.pdf`}
-          type="application/pdf"
-          width="100%"
-          height="100%"
-        ></object> */}
         <a href={`/Group${group}_June2023.pdf`}>
           <img
             src={`/Group${group}_June2023.png`}
