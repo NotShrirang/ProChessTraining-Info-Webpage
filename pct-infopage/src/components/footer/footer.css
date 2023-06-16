@@ -17,6 +17,7 @@
 .footer-div-title-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .footer-div-title {
     color: #dcdcdc;
