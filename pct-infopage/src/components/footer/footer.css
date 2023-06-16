@@ -71,5 +71,6 @@
     .footer-div-link-list{
         margin-left: 0rem;
         flex-direction: column;
+        align-items: center;
     }
 }
