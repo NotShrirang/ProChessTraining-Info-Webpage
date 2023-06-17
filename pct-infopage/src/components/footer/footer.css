@@ -60,6 +60,12 @@
         position: relative;
         flex-direction: column;
         margin-left: 0rem;
+        gap: 0.5rem;
+    }
+    .footer-div-logo {
+        margin-left: 0rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
     }
     .footer-div-title{
         margin-left: 0rem;
@@ -69,6 +75,7 @@
     }
     .footer-div-link-list{
         margin-left: 0.5rem;
+        margin-bottom: 1rem;
         flex-direction: row;
         align-items: center;
     }
