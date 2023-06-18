@@ -3,12 +3,14 @@
     width: 100vw;
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: relative;
+    margin-top: 12rem;
     bottom: 0rem;
     box-shadow: #253441 0px 0px 7px 0px;
     vertical-align: middle;
     align-items: center;
     gap: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 .footer-div-logo {
     margin-left: 0.5rem;

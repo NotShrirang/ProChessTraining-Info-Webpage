@@ -19,16 +19,6 @@ const PdfComponent = ({ group }) => {
         <div className="body-pricing-title">Pricing/month:</div>
         <div className="body-pricing-price">{price}</div>
       </div>
-      <div className="body-button-container">
-        <button
-          className="body-button"
-          onClick={() => {
-            window.open(BASEURL + group, "_blank");
-          }}
-        >
-          Start Learning
-        </button>
-      </div>
       <div className="body-schedule">Schedule</div>
       <div className="body-pdf">
         <a href={`/Group${group}_June2023.pdf`}>
@@ -39,6 +29,16 @@ const PdfComponent = ({ group }) => {
             height="100%"
           />
         </a>
+      </div>
+      <div className="body-button-container">
+        <button
+          className="body-button"
+          onClick={() => {
+            window.open(BASEURL + group, "_blank");
+          }}
+        >
+          Start Learning
+        </button>
       </div>
     </>
   );

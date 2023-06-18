@@ -5,9 +5,11 @@
     justify-content: center;
     width: 100vw;
     margin-top: 6rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .body-subtitle {
+    margin-top: 10rem;
     margin-left: 1rem;
     margin-right: 1rem;
     color: #dcdcdc;
@@ -90,12 +92,12 @@
         margin-right: 0rem;
     }
     .body-subtitle {
-        margin-left: 0rem;
+        margin-left: 1rem;
         margin-right: 1rem;
         font-size: 1.5rem;
     }
     .body-description {
-        margin-left: 0rem;
+        margin-left: 1rem;
         margin-right: 1rem;
         font-size: smaller;
     }
