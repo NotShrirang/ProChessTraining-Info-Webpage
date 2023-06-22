@@ -13,6 +13,12 @@ const Body = () => {
   const route = useParams();
 
   useEffect(() => {
+    const group = localStorage.getItem("group");
+    if (group != undefined) {
+      setGroup(group);
+    } else {
+      setGroup(0);
+    }
     if (route.groupId == undefined) {
       return;
     } else if (["1", "2", "3", "5"].includes(route.groupId)) {
@@ -33,6 +39,7 @@ const Body = () => {
   }
 
   const handleGroupChange = (e) => {
+    localStorage.setItem("group", e.target.value);
     setGroup(e.target.value);
     pageScroll(30);
   };
