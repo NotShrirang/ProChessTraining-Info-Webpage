@@ -1,10 +1,14 @@
 import React from "react";
 import "./pdfComponent.css";
+import { useEffect } from "react";
 
 const PdfComponent = ({ group }) => {
   const BASEURL =
     "https://prochesstraining.com/register_direct/set_enrollment/";
-  const price = { 1: "INR 4300", 2: "INR 5000", 3: "INR 5750", 5: "INR 18250" }[
+  // const price = { 1: "INR 4300", 2: "INR 5000", 3: "INR 5750", 5: "INR 18250" }[
+  //   group
+  // ];
+  const price = { 1: "$60", 2: "$70", 3: "$80", 5: "$250" }[
     group
   ];
 
