@@ -1,7 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  function pageScroll(counter) {
+    if (counter == 0) {
+      return;
+    }
+    window.scrollBy(0, -15);
+    scrolldelay = setTimeout(() => {
+      pageScroll(counter - 1);
+    }, 10);
+  }
+
   return (
     <>
       <div className="footer-div">
@@ -21,10 +34,13 @@ const Footer = () => {
         <div className="footer-div-link-list">
           <div className="footer-div-link">
             <a
-              href="https://prochesstraining.com/home/our_coaches"
+              onClick={() => {
+                navigate("/coaches");
+                pageScroll(30);
+              }}
               className="footer-div-link"
             >
-              {"Coaches"}
+              {"Our Coaches"}
             </a>
           </div>
           <div className="footer-div-link">
@@ -33,6 +49,38 @@ const Footer = () => {
               className="footer-div-link"
             >
               {"Contact Us"}
+            </a>
+          </div>
+          <div className="footer-div-link">
+            <a
+              href="https://prochesstraining.com/home/our_testimonials"
+              className="footer-div-link"
+            >
+              {"Testimonials"}
+            </a>
+          </div>
+          <div className="footer-div-link">
+            <a
+              href="https://prochesstraining.com/news_blog/list/1"
+              className="footer-div-link"
+            >
+              {"News"}
+            </a>
+          </div>
+          <div className="footer-div-link">
+            <a
+              href="https://prochesstraining.com/home/privacy_policy"
+              className="footer-div-link"
+            >
+              {"Privacy Policy"}
+            </a>
+          </div>
+          <div className="footer-div-link">
+            <a
+              href="https://prochesstraining.com/home/terms_and_conditions"
+              className="footer-div-link"
+            >
+              {"Terms & Conditions"}
             </a>
           </div>
         </div>
