@@ -34,10 +34,7 @@ const Footer = () => {
         <div className="footer-div-link-list">
           <div className="footer-div-link">
             <a
-              onClick={() => {
-                navigate("/coaches");
-                pageScroll(30);
-              }}
+              href="https://prochesstraining.com/home/our_coaches"
               className="footer-div-link"
             >
               {"Our Coaches"}
