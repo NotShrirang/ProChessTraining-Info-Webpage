@@ -4,7 +4,6 @@ import Navbar from "./components/navbar/navbar";
 import Body from "./components/body/body";
 import { useLocation } from "react-router-dom";
 import Footer from "./components/footer/footer";
-import CoachPage from "./components/coaches/coaches";
 
 function App() {
   const location = useLocation();
@@ -23,7 +22,6 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Body />} />
           <Route path="/groups/:groupId" element={<Body />} />
-          <Route path="/coaches/" element={<CoachPage />} />
         </Routes>
         <Footer />
       </div>
