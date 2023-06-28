@@ -4,7 +4,7 @@
 # ProChessTraining Info Webpage
 
 ### Visit: https://pro-chess-training-info-webpage.vercel.app/ <br/>
-### This is an information page about <a href="https://www.prochesstraining.com">ProChess Training</a>
+### This is an information page about <a href="https://www.prochesstraining.com">ProChess Training</a>.
 
 ## Steps:
 ### Clone:
