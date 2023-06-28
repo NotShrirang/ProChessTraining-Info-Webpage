@@ -6,7 +6,7 @@
 ### Visit: https://pro-chess-training-info-webpage.vercel.app/ <br/>
 ### This is an information page about <a href="https://www.prochesstraining.com">ProChess Training</a>.
 
-## Steps:
+## Steps to use:
 ### Clone:
 
 ```
