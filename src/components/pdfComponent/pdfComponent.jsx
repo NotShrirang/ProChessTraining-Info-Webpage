@@ -23,10 +23,10 @@ const PdfComponent = ({ group }) => {
       </div>
       <div className="body-schedule">Schedule</div>
       <div className="body-pdf">
-        <a href={`/Group${group}_July2023.pdf`}>
+        <a href={`/Group${group}.pdf`}>
           <img
-            src={`/Group${group}_July2023.png`}
-            alt={`/Group${group} - July 2023 Schedule`}
+            src={`/Group${group}.png`}
+            alt={`/Group${group} - Schedule`}
             width="100%"
             height="100%"
           />
