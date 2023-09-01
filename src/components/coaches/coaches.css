@@ -1,0 +1,107 @@
+.coachesPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+    font-family: 'Nunito', sans-serif;
+}
+.coachesPage-subtitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.coachesPage-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.coachesPage-coaches {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.coachesPage-coach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.coachesPage-coach-name {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.coachesPage-coach-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Style the counter cards */
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+margin: 10px;
+text-align: center;
+background-color: transparent;
+}
+
+/* Responsive columns */
+@media (min-width: 1300px) {
+.column {
+    width: 25%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+.column {
+    width: 33%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+.column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 850px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
